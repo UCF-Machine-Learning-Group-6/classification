@@ -106,7 +106,7 @@ if __name__ == "__main__":
             totalaccuracy = totalaccuracy + runaccuracy
             
             if (run == 5):
-                print("Total Accuracy" + str(totalaccuracy/5))
+                print("Total Accuracy: " + str(totalaccuracy/5))
                 cataccuracy = cataccuracy + (totalaccuracy / 5)
             
             run = run+1
